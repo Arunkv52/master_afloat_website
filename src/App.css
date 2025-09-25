@@ -11,7 +11,7 @@ body {
   background-color: var(--color-black);
   color: var(--color-white);
     --sb-track-color: #000000;
-  --sb-thumb-color: #006c94;
+  --sb-thumb-color: #ffffff;
   --sb-size: 5px;
 }
 

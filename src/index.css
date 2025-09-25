@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .text-stroke-2 {
+    -webkit-text-stroke: 1px #ffffff; /* cyan-500 */
+    color: transparent; /* removes fill */
+  }
+}
