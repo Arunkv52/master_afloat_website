@@ -83,7 +83,7 @@ const Home = () => {
         </div>
       </div>
       {/* Section 4 */}
-      <div className='md:text-center text-left md:px-100 px-5 md:py-10 py-5'>
+      <div className='md:text-center text-left md:px-10 lg:px-100 px-5 md:py-10 py-5'>
         <p className='pb-5 text-white/50'>Our Crew</p>
         <h6 className='md:text-3xl text-[18px]'>
           The crew is the lifeblood of Okains Bay Seafood and the Kawatea. It
