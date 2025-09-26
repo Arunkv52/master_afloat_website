@@ -14,7 +14,7 @@ const Navbar = () => {
         <>
             <div className='md:flex justify-between items-center flex text-white px-5 py-2 fixed w-full top-0 z-50'>
                 <div className='logo cursor-pointer'>
-                    <h1 className='text-3xl'>Display</h1>
+                    <h1 className='text-3xl'>Master Afloat</h1>
                 </div>
                 <div className='menu text-white md:block hidden'>
                     <ul className='md:flex justify-start items-center gap-5 z-50'>
