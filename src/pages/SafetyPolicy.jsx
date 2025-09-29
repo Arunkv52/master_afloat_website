@@ -26,8 +26,7 @@ const SafetyPolicy = () => {
         />
         <div className='absolute top-1/2 left-5'>
           <h3 className='md:text-6xl text-3xl'>
-            Expert <br /> Fabrication & Repair Works <br /> for the Marine
-            Sector
+            Our goal is to build <br /> a culture of responsibility <br /> and awareness
           </h3>
         </div>
       </div>
