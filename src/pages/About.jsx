@@ -71,7 +71,7 @@ const About = () => {
 
         {/* Section 3 */}
         <div className=''>
-          <div className='md:py-30 md:pb-0 pt-4 pb-20 px-5 bg-white md:flex justify-around items-start text-black'>
+          <div className='md:py-20 px-5 bg-white md:flex justify-around items-start text-black'>
             <h5 className='py-5'>Corporate Vision</h5>
             <p className='md:text-6xl text-3xl uppercase font-semibold'>
               Leading ship <br /> repairing company <br /> locally <br />{' '}

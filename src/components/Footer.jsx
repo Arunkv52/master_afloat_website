@@ -10,10 +10,10 @@ const Footer = () => {
 
     return (
         <>
-            <footer className='md:py-15 py-10 bg-[linear-gradient(180deg,rgba(255,255,255,1)_0%,rgba(1,75,114,1)_24%)]'>
+            <footer className='md:py-15 py-10 '>
                 <div className='md:px-30 px-5 md:py-20 py-0 md:flex justify-between'>
                     <div>
-                        <h2 className='md:text-5xl text-4xl pb-5'><span className='md:text-white/40 text-black'>Ready to create something</span> <br /> awesome together?</h2>
+                        <h2 className='md:text-5xl text-4xl pb-5'><span className='md:text-white/60 text-white'>Ready to create something</span> <br /> awesome together?</h2>
                         <button className='bg-white text-black py-2 px-5 rounded-[50px] text-[20px]'>🚢 Let's Connect</button>
                     </div>
                     <div className='md:py-0 pt-15'>

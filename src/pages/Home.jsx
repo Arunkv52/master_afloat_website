@@ -129,10 +129,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* Section 7 */}
-      <div>
-        <img src={WaterSplash} alt="" className='w-full'/>
-      </div>
+      
 
       <Footer />
     </>
