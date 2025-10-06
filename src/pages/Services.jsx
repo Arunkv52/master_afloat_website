@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Navbar from '../components/Navbar'
-import ServiceImg from '../assets/Services_img.jpg'
+import ServiceImg from '../assets/services.jpg'
 import Footer from '../components/Footer'
-import Serve from '../assets/Welding.jpg'
+import Serve from '../assets/weld.jpg'
 
 const Services = () => {
   const { scrollY } = useScroll()
