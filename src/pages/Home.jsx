@@ -75,7 +75,7 @@ const Home = () => {
       {/* Section 3 */}
       <div className='md:py-20 py-10 px-5'>
         <h2 className='text-[#dcdcdc]'>Core Business</h2>
-        <h3 className='md:text-8xl text-5xl text-stroke-2 md:relative top-35'>
+        <h3 className='md:text-6xl text-5xl text-stroke-2 md:relative top-0'>
           Ship Repairs at Anchorage & Voyage
         </h3>
         <div>
@@ -123,9 +123,9 @@ const Home = () => {
           <p className='md:text-2xl text-base pt-3'>Here’s a look at our recent work—
             a list of <strong> completed projects.</strong></p>
         </div>
-        <div>
-          <div style={{ height: '600px', position: 'relative' }}>
-            <CircularGallery bend={0} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02} />
+        <div className='py-10'>
+          <div>
+            <CircularGallery />
           </div>
         </div>
       </div>
