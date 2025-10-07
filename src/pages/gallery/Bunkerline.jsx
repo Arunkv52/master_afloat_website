@@ -8,8 +8,7 @@ import {
 } from "@/components/ui/carousel"
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import Img1 from '../../assets/Home_next/engine-room.png'
-import Img2 from '../../assets/Home_next/pre-fabrication.webp'
+import Img1 from '../../assets/services/bunker_line/1.jpg'
 
 
 
@@ -18,7 +17,8 @@ const Bunkerline = () => {
     <>
       <div className>
         <Navbar />
-        <div className='px-10 py-20'>
+         <div className='px-5 py-30'>
+          <h2 className='text-3xl text-center'>Bunker Line Modification</h2>
           <Carousel>
             <CarouselContent>
               <CarouselItem className="basis-1/3">
@@ -26,31 +26,7 @@ const Bunkerline = () => {
                   <img src={Img1} alt="" />
                 </div>
               </CarouselItem>
-              <CarouselItem className="basis-1/3">
-                <div className='p-3'>
-                  <img src={Img2} alt="" />
-                </div>
-              </CarouselItem>
-              <CarouselItem className="basis-1/3">
-                <div className='p-3'>
-                  <img src={Img1} alt="" />
-                </div>
-              </CarouselItem>
-              <CarouselItem className="basis-1/3">
-                <div className='p-3'>
-                  <img src={Img2} alt="" />
-                </div>
-              </CarouselItem>
-              <CarouselItem className="basis-1/3">
-                <div className='p-3'>
-                  <img src={Img1} alt="" />
-                </div>
-              </CarouselItem>
-              <CarouselItem className="basis-1/3">
-                <div className='p-3'>
-                  <img src={Img2} alt="" />
-                </div>
-              </CarouselItem>
+              
             </CarouselContent>
           </Carousel>
         </div>

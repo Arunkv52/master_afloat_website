@@ -128,7 +128,7 @@ const CircularGallery = () => {
                             </Link>
                         </CarouselItem>
                         <CarouselItem className="md:basis-1/3">
-                            <Link to={'/bwtspipes'}>
+                            <Link to={'/vesselname'}>
                             <div>
                                 <img src={Img13} alt="" />
                                 <p className='md:text-2xl py-5'>Vessel Name Change</p>
@@ -136,7 +136,7 @@ const CircularGallery = () => {
                             </Link>
                         </CarouselItem>
                         <CarouselItem className="md:basis-1/3">
-                            <Link to={'/vesselname'}>
+                            <Link to={'/bwtspipes'}>
                             <div>
                                 <img src={Img3} alt="" />
                                 <p className='md:text-2xl py-5'>BWTS pipes Fabrication and installation</p>

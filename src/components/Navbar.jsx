@@ -14,11 +14,14 @@ const Navbar = () => {
         <>
             <div className='md:flex justify-between items-center flex text-white px-5 py-2 fixed w-full top-0 z-50'>
                 <div className='logo cursor-pointer'>
-                    <h1 className='text-3xl'>Master Afloat</h1>
+                    <Link to={'/'}>
+                        <h1 className='text-3xl'>
+                            Master Afloat</h1>
+                    </Link>
                 </div>
                 <div className='menu text-white md:block hidden'>
                     <ul className='md:flex justify-start items-center gap-5 z-50'>
-                       
+
                         <Link to={'/'} className='relative group cursor-pointer'>
                             Home
                             <span className='absolute left-0 bottom-0 w-0 h-[2px] bg- transition-all duration-300 group-hover:w-full'></span>
@@ -40,7 +43,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='menu-contact hidden md:block'>
-                    
+
                     <ul>
                         <Link to={'/contact'} className='bg-[#4680c0] border-2 border-white/25 px-10 py-2 rounded-[50px] cursor-pointer'>
                             Contact
@@ -58,7 +61,7 @@ const Navbar = () => {
 
                     </div>
                     {menu && <div className='absolute top-0 left-0 right-0 bg-black h-dvh py-3 -z-10'>
-                        
+
                         <div className='px-5 pt-20'>
                             <ul className='md:flex md:justify-start md:items-center items-start flex flex-col  gap-5'>
                                 <Link to={'/'} className='relative group cursor-pointer text-2xl py-3'>
@@ -94,7 +97,7 @@ const Navbar = () => {
                     </div>}
                 </div>
             </div>
-           
+
         </>
     )
 }
