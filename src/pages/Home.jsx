@@ -10,6 +10,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
 import CircularGallery from '../components/CircularGallery'
 import MobileBanner from '../assets/mobile_banner.jpg'
+import { Link } from 'react-router'
 
 
 const Home = () => {
@@ -28,8 +29,14 @@ const Home = () => {
     <>
       <Navbar />
       <div className='hero-section'>
-        <video src={Video} autoPlay muted loop className='-z-50 md:block hidden'></video>
-        <img src={MobileBanner} alt="" className='md:hidden block' />
+        <video
+          src={Video}
+          autoPlay
+          muted
+          loop
+          className='-z-50 md:block hidden'
+        ></video>
+        <img src={MobileBanner} alt='' className='md:hidden block' />
         <div className='md:absolute md:top-1/3 lg:top-1/2 absolute top-50 left-0 md:left-5 md:px-0 px-5'>
           <h1 className='md:text-6xl text-2xl text-left uppercase font-bold'>
             Success through
@@ -48,26 +55,26 @@ const Home = () => {
         <div className='md:flex justify-between'>
           <div>
             <h4 className='md:text-5xl text-3xl pb-10'>
-              Industry-leading solutions to simplify
-              <br /> and scale IT for industrial networks
+              About Master Marine Works
             </h4>
             <img src={UsNavy} alt='' className='md:w-3/4 w-full' />
           </div>
           <div>
             <p className='md:text-base text-[18px] pt-5'>
-              Master Marine works was established in 2011, and registered in
-              Singapore. Since then, Master Marine works has grown step by step,
-              albeit on a nominal scale.
+              With years of dedicated service in the maritime industry, Master
+              Marine Works has established itself as a trusted partner for ship
+              owners and operators worldwide. Our journey began with a singular
+              vision: to provide unparalleled ship repair and maintenance
+              services that stand the test of time and the rigors of the sea.
             </p>
             <p className='md:text-base text-[18px] pt-5'>
-              Master Marine works was established in 2011, and registered in
-              Singapore. Since then, Master Marine works has grown step by step,
-              albeit on a nominal scale.
-            </p>
-            <p className='md:text-base text-[18px] pt-5'>
-              Master Marine works was established in 2011, and registered in
-              Singapore. Since then, Master Marine works has grown step by step,
-              albeit on a nominal scale.
+              Our team comprises highly skilled and certified mariners,
+              engineers, and technicians who bring a wealth of practical
+              experience to every project. We pride ourselves on our proactive
+              approach, problem-solving capabilities, and unwavering commitment
+              to safety and environmental standards. We believe in building
+              long-term relationships based on trust, transparency, and
+              consistent delivery of quality work.
             </p>
           </div>
         </div>
@@ -84,17 +91,15 @@ const Home = () => {
       </div>
       {/* Section 4 */}
       <div className='md:text-center text-left md:px-10 lg:px-100 px-5 md:py-10 py-5'>
-        <p className='pb-5 text-white/50'>Our Crew</p>
+        <p className='pb-5 text-white/50'>
+          Ship Repairs at Anchorage and on Voyage
+        </p>
         <h6 className='md:text-3xl text-[18px]'>
-          The crew is the lifeblood of Okains Bay Seafood and the Kawatea. It
-          takes a special kind of person to brave the harsh conditions of the
-          Southern Ocean for up to six weeks at a time.
-        </h6>
-        <h6 className='md:text-3xl text-[18px]'>
-          This is deeply respected and the crew is well looked after in return
-          for their efforts. It is a very rare occurrence to have staff
-          turnover, with most of the current team having been with the business
-          for over 10 years.
+          Our specialized teams are equipped to perform critical repairs at
+          anchorage or while your vessel is on voyage. This flexibility ensures
+          that essential maintenance and emergency fixes are carried out without
+          disrupting your crucial schedule. We come to you, reducing logistics
+          challenges and keeping your operations flowing smoothly.
         </h6>
       </div>
       {/* Section 5 */}
@@ -107,21 +112,25 @@ const Home = () => {
         className='bg-cover bg-center h-[600px] py-10 flex flex-col md:justify-center justify-end md:items-start items-end text-white'
       >
         <div className='text-left md:px-10 px-5'>
-          <p className='md:text-4xl text-2xl pb-5'>
-            We have refined a longstanding <br /> traditional method of fishing{' '}
-            <br /> down to a fine art.
+          <p className='md:text-4xl text-2xl pb-5 w-1/2'>
+            Ready to experience the Master Marine Works difference?
           </p>
-          <button className='bg-white text-black px-7 py-3 font-semibold cursor-pointer hover:bg-black hover:text-white shadow-2xs'>
-            Connect With us
-          </button>
+          <Link to={'/contact'}>
+            <button className='bg-white text-black px-7 py-3 font-semibold cursor-pointer hover:bg-black hover:text-white shadow-2xs'>
+              Connect With us
+            </button>
+          </Link>
+
         </div>
       </motion.div>
       {/* Section 6 */}
       <div className='text-white md:py-15 py-5 md:px-0 px-5'>
         <div className='text-center'>
           <h5 className='md:text-4xl text-3xl font-semibold'>Our Projects</h5>
-          <p className='md:text-2xl text-base pt-3'>Here’s a look at our recent work—
-            a list of <strong> completed projects.</strong></p>
+          <p className='md:text-2xl text-base pt-3'>
+            Here’s a look at our recent work— a list of{' '}
+            <strong> completed projects.</strong>
+          </p>
         </div>
         <div className='py-10'>
           <div>
@@ -129,7 +138,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
 
       <Footer />
     </>

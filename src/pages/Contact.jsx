@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const Contact = () => {
+
+  //contact value will stored in a states
+
+  const [fullname,setFullname] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone,setPhone] = useState('');
+  const [company,setCompany] = useState('');
+  const [message,setMessage] = useState('');
+
+ 
+  
   return (
     <>
       <Navbar />
@@ -34,6 +45,8 @@ const Contact = () => {
                 {/* Full Name */}
                 <input
                   type='text'
+                  value={fullname}
+                  onChange={(event) => setFullname(event.target.value)}
                   placeholder='Full name *'
                   className='w-full p-4 bg-gray-100 rounded-lg outline-none'
                 />
@@ -42,6 +55,8 @@ const Contact = () => {
                 <input
                   type='email'
                   placeholder='Email *'
+                  value={email}
+                  
                   className='w-full p-4 bg-gray-100 rounded-lg outline-none'
                 />
               </div>

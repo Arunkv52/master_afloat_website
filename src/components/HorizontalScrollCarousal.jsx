@@ -1,11 +1,11 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
-import Img1 from '../assets/voyage/piping.jpg'
-import Img2 from '../assets/voyage/structural.jpg'
-import Img3 from '../assets/voyage/mechanical_works.jpg'
-import Img4 from '../assets/voyage/Electrics_works.jpg'
-import Img5 from '../assets/voyage/Hydralics.jpeg'
-import Img6 from '../assets/voyage/carpentary-works.jpg'
+import Img1 from '../assets/Ai_download/piping.jpg'
+import Img2 from '../assets/Ai_download/structural-works.jpg'
+import Img3 from '../assets/Ai_download/mechanical_works.jpg'
+import Img4 from '../assets/Ai_download/electrical_works.jpg'
+import Img5 from '../assets/Ai_download/hydralic_works.jpg'
+import Img6 from '../assets/Ai_download/carpendary_works.jpg'
 
 const Example = () => {
   return (
