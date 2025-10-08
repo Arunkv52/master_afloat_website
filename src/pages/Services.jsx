@@ -53,7 +53,7 @@ const Services = () => {
           <div>
             <p className='md:text-2xl text-2xl'>
               {' '}
-              Master Marine Works is a firm dedicated to provide one-stop
+              Master Afloat Repair Works is a firm dedicated to provide one-stop
               solution services (Fabrication and Repair works) to suit for the
               Marine industry (onshore/offshore and Voyage jobs).
             </p>

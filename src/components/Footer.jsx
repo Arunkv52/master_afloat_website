@@ -40,10 +40,10 @@ const Footer = () => {
                             Socials
                         </p>
                         <ul className='md:flex flex-col flex justify-start items-start gap-3 text-2xl'>
-                            <li>Facebook </li>
-                            <li>Instagram </li>
-                            <li>Youtube </li>
-                            <li>Twitter(X) </li>
+                            <a href="#"><li>Facebook </li></a>
+                            <a href="#"><li>Instagram </li></a>
+                            <a href="#"><li>Youtube </li></a>
+                            <a href="#"><li>Twitter(X) </li></a>
                         </ul>
                     </div>
                 </div>

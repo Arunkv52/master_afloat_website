@@ -36,7 +36,13 @@ const Contact = () => {
 
       <div className='bg-white text-black md:py-20 py-10 md:px-30 px-5 md:flex justify-between items-start gap-5'>
         <div className='md:w-1/2 w-full'>
-          <p>Discuss the Project</p>
+          <p>Conect with social links</p>
+          <ul className='md:flex flex-col flex justify-start items-start gap-3 text-2xl pt-5'>
+            <a href="#"><li>Facebook </li></a>
+            <a href="#"><li>Instagram </li></a>
+            <a href="#"><li>Youtube </li></a>
+            <a href="#"><li>Twitter(X) </li></a>
+          </ul>
         </div>
         <div className='md:w-1/2 w-full'>
           <div className='w-full max-w-4xl'>
@@ -107,7 +113,7 @@ const Contact = () => {
                 />
                 {errors.useritem && <p className='text-red-500'>{errors.useritem.message}</p>}
 
-                
+
               </div>
 
               {/* Message */}
@@ -135,7 +141,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className='bg-white text-black md:py-20 py-10 md:px-30 px-5 md:flex justify-between items-start gap-5'>
+      {/* <div className='bg-white text-black md:py-20 py-10 md:px-30 px-5 md:flex justify-between items-start gap-5'>
         <div className='md:w-1/2 w-full'>
           <p>Details for contact</p>
         </div>
@@ -170,7 +176,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   )

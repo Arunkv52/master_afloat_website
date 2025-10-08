@@ -40,7 +40,7 @@ const SafetyPolicy = () => {
         <div className='md:w-[66%] w-full md:py-0 py-10'>
           <div>
             <p className='md:text-2xl text-2xl'>
-              At Master Marine Works, the health and safety of our employees is
+              At Master Afloat Repair Works, the health and safety of our employees is
               our highest priority. All activities are carried out in full
               compliance with the relevant legislation of the Singapore
               Government’s safety standards.

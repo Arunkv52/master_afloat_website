@@ -34,7 +34,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/Offshore'}>
                                 <div>
-                                    <img src={Img8} alt="" />
+                                    <img src={Img8} alt="" className='w-full h-[400px] object-cover' />
                                     <p className='md:text-2xl py-5'>Offshore Platform Fabrication & Install</p>
                                 </div>
                             </Link>
@@ -42,7 +42,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/engine'}>
                                 <div>
-                                    <img src={Img4} alt="" />
+                                    <img src={Img4} alt="" className='w-full h-[400px] object-cover' />
                                     <p className='md:text-2xl py-5'>Engine Room Piping</p>
                                 </div>
                             </Link>
@@ -50,7 +50,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/steelplate'}>
                             <div>
-                                <img src={Img12} alt="" />
+                                <img src={Img12} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Steel Plate Renewal</p>
                             </div>
                             </Link>
@@ -58,7 +58,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/bunkerline'}>
                             <div>
-                                <img src={Img2} alt="" />
+                                <img src={Img2} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Bunker Line Modification</p>
                             </div>
                             </Link>
@@ -66,7 +66,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/seafastening'}>
                             <div>
-                                <img src={Img11} alt="" />
+                                <img src={Img11} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Sea Fastening Job</p>
                             </div>
                             </Link>
@@ -74,7 +74,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/bellowrenewal'}>
                             <div>
-                                <img src={Img1} alt="" />
+                                <img src={Img1} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Bellow Renewal </p>
                             </div>
                             </Link>
@@ -82,7 +82,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/prefabrication'}>
                             <div>
-                                <img src={Img9} alt="" />
+                                <img src={Img9} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Pre Fabrication</p>
                             </div>
                             </Link>
@@ -90,7 +90,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/hydralics'}>
                             <div>
-                                <img src={Img6} alt="" />
+                                <img src={Img6} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Hydraulic Job</p>
                             </div>
                             </Link>
@@ -98,7 +98,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/coolerpipes'}>
                             <div>
-                                <img src={Img7} alt="" />
+                                <img src={Img7} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>L-T Cooler Pipe Renewal</p>
                             </div>
                             </Link>
@@ -106,7 +106,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/antiheeling'}>
                             <div>
-                                <img src={Img1} alt="" />
+                                <img src={Img1} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Anti heeling- Pump Servicing</p>
                             </div>
                             </Link>
@@ -114,7 +114,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/hanging'}>
                             <div>
-                                <img src={Img5} alt="" />
+                                <img src={Img5} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Hanging Staging</p>
                             </div>
                             </Link>
@@ -122,7 +122,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/scrubber'}>
                             <div>
-                                <img src={Img10} alt="" />
+                                <img src={Img10} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Scrubber Repair Works</p>
                             </div>
                             </Link>
@@ -130,7 +130,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/vesselname'}>
                             <div>
-                                <img src={Img13} alt="" />
+                                <img src={Img13} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>Vessel Name Change</p>
                             </div>
                             </Link>
@@ -138,7 +138,7 @@ const CircularGallery = () => {
                         <CarouselItem className="md:basis-1/3">
                             <Link to={'/bwtspipes'}>
                             <div>
-                                <img src={Img3} alt="" />
+                                <img src={Img3} alt="" className='w-full h-[400px] object-cover' />
                                 <p className='md:text-2xl py-5'>BWTS pipes Fabrication and installation</p>
                             </div>
                             </Link>

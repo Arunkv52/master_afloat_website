@@ -43,7 +43,7 @@ const Home = () => {
             <br /> customer satisfaction
           </h1>
           <p className='pt-5'>
-            Master Marine Works corporate philosophy is to serve all its
+            Master Afloat Repair Works corporate philosophy is to serve all its
             clientele to their entire level of <br /> satisfaction with pride
             and excellence through its vast experience collective team work{' '}
             <br /> with motivated personnel
@@ -55,14 +55,13 @@ const Home = () => {
         <div className='md:flex justify-between'>
           <div>
             <h4 className='md:text-5xl text-3xl pb-10'>
-              About Master Marine Works
+              About Master Afloat Repair Works
             </h4>
             <img src={UsNavy} alt='' className='md:w-3/4 w-full' />
           </div>
           <div>
             <p className='md:text-base text-[18px] pt-5'>
-              With years of dedicated service in the maritime industry, Master
-              Marine Works has established itself as a trusted partner for ship
+              With years of dedicated service in the maritime industry, Master Afloat Repair Works has established itself as a trusted partner for ship
               owners and operators worldwide. Our journey began with a singular
               vision: to provide unparalleled ship repair and maintenance
               services that stand the test of time and the rigors of the sea.
@@ -113,7 +112,7 @@ const Home = () => {
       >
         <div className='text-left md:px-10 px-5'>
           <p className='md:text-4xl text-2xl pb-5 w-1/2'>
-            Ready to experience the Master Marine Works difference?
+            Ready to experience the Master Afloat Repair Works difference?
           </p>
           <Link to={'/contact'}>
             <button className='bg-white text-black px-7 py-3 font-semibold cursor-pointer hover:bg-black hover:text-white shadow-2xs'>

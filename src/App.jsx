@@ -46,7 +46,6 @@ const App = () => {
           <Route path='/seafastening' element={<Seafastening />} />
           <Route path='/steelplate' element={<Steelplate />} />
           <Route path='/vesselname' element={<Vesselname />} />
-
         </Routes>
       </BrowserRouter>
     </>

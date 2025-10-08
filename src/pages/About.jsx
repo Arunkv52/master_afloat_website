@@ -31,21 +31,19 @@ const About = () => {
           </div>
         </div>
         <div className='md:flex justify-around items-start gap-20 px-5 md:py-30 py-15'>
-          <div>
+          <div className='md:w-[25%] w-full'>
             <h6 className='md:text-2xl text-base'>Who we are</h6>
           </div>
-          <div>
-            <p className='md:text-4xl text-[18px] md:pt-0 pt-5'>
-              Master Marine works was established in 2011, and registered in
-              Singapore. Since then, Master Marine works has grown step by step,
+          <div className='md:w-[75%] w-full'>
+            <p className='md:text-3xl text-[18px] md:pt-0 pt-5'>Master Afloat Repair Works has grown step by step,
               albeit on a nominal scale.
             </p>
-            <p className='md:text-4xl text-[18px] pt-5'>
-              Master Marine work is specialized in all round Ship Repairs. To
+            <p className='md:text-3xl text-[18px] pt-5'>
+              Master Afloat Repair Work is specialized in all round Ship Repairs. To
               stay competitive and abreast of technological expertise and
               know-how, it has employed qualified personnel as it workforce.
             </p>
-            <p className='md:text-4xl text-[18px] pt-5 text-white/60'>
+            <p className='md:text-3xl text-[18px] pt-5 text-white/60'>
               Treading through the new horizons and diversifying for the future
               endeavor.
             </p>
@@ -60,8 +58,8 @@ const About = () => {
             </div>
             <div className='md:py-0 py-15 md:px-0 px-5'>
               <h6 className='text-white/50'>Corporate Mission</h6>
-              <p className='md:text-4xl text-[18px] py-3'>
-                Master Marine Works philosophy is to serve all its clientele to
+              <p className='md:text-3xl text-[18px] py-3'>
+                Master Afloat Repair Works philosophy is to serve all its clientele to
                 their entire level of satisfaction with pride and excellence
                 through its vast experience with highly motivated personnel.
               </p>
@@ -74,8 +72,8 @@ const About = () => {
           <div className='md:py-20 px-5 bg-white md:flex justify-around items-start text-black'>
             <h5 className='py-5'>Corporate Vision</h5>
             <p className='md:text-6xl text-3xl uppercase font-semibold'>
-              Leading ship <br /> repairing company <br /> locally <br />{' '}
-              globally
+              Leading ship 🚢 <br /> repairing company 🏢 <br /> locally & 🏠<br />{' '}
+              globally 🌍
             </p>
           </div>
         </div>
