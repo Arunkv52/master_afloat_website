@@ -1,25 +1,24 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { useForm } from 'react-hook-form'
+
 
 const Contact = () => {
-  //contact value will stored in a states
+  // use form integrations
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-  const [fullname, setFullname] = useState('')
-  const [email, setEmail] = useState('')
-  const [phone, setPhone] = useState('')
-  const [company, setCompany] = useState('')
-  const [message, setMessage] = useState('')
+  function userForm(input) {
+    event.preventDefault();
 
-  function userData() {
-    event.preventDefault()
+    console.log(input);
 
-    console.log('fullname :', fullname)
-    console.log('email :', email)
-    console.log('phone :', phone)
-    console.log('company :', company)
-    console.log('message :', message)
   }
+
 
   return (
     <>
@@ -47,29 +46,34 @@ const Contact = () => {
             </h2>
 
             {/* Form */}
-            <form className='space-y-6' onSubmit={userData}>
+            <form className='space-y-6' onSubmit={handleSubmit(userForm)}>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 {/* Full Name */}
                 <input
                   type='text'
-                  value={fullname}
-                  onChange={event => setFullname(event.target.value)}
+                  name='username'
                   placeholder='Full name *'
                   className='w-full p-4 bg-gray-100 rounded-lg outline-none'
-                  required
-                  maxLength={20}
+                  {...register('username', {
+                    minLength: { value: 5, message: 'Need minimum 5 letters' },
+                    maxLength: { value: 20, message: 'Only accept 20 letters' },
+                    required: { value: true, message: 'Please fill the form' }
+                  })}
                 />
-
+                {errors.username && <p className='text-red-500'>{errors.username.message}</p>}
                 {/* Email */}
                 <input
                   type='email'
+                  name='email'
                   placeholder='Email *'
-                  value={email}
-                  onChange={event => setEmail(event.target.value)}
                   className='w-full p-4 bg-gray-100 rounded-lg outline-none'
-                  required
-                  maxLength={20}
+                  {...register('email', {
+                    minLength: { value: 5, message: 'Need minimum 5 letters' },
+                    maxLength: { value: 20, message: 'Only accept 20 letters' },
+                    required: { value: true, message: 'Please fill the form' }
+                  })}
                 />
+                {errors.email && <p className='text-red-500'>{errors.email.message}</p>}
               </div>
 
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
@@ -77,37 +81,48 @@ const Contact = () => {
                 <div className='flex'>
                   <input
                     type='tel'
+                    name='phone'
                     placeholder='Phone number *'
                     className='w-full p-4 bg-gray-100 rounded-r-lg outline-none'
-                    value={company}
-                    onChange={event => setCompany(event.target.value)}
-                    required
-                    maxLength={20}
+                    {...register('phone', {
+                      minLength: { value: 5, message: 'Need minimum 5 letters' },
+                      maxLength: { value: 20, message: 'Only accept 20 letters' },
+                      required: { value: true, message: 'Please fill the form' }
+                    })}
                   />
+                  {errors.phone && <p className='text-red-500'>{errors.phone.message}</p>}
                 </div>
 
                 {/* Company */}
                 <input
                   type='text'
                   placeholder='Company'
+                  name='useritem'
                   className='w-full p-4 bg-gray-100 rounded-lg outline-none'
-                  value={phone}
-                  onChange={event => setPhone(event.target.value)}
-                  required
-                  maxLength={20}
+                  {...register('useritem', {
+                    minLength: { value: 5, message: 'Need minimum 5 letters' },
+                    maxLength: { value: 20, message: 'Only accept 20 letters' },
+                    required: { value: true, message: 'Please fill the form' }
+                  })}
                 />
+                {errors.useritem && <p className='text-red-500'>{errors.useritem.message}</p>}
+
+                
               </div>
 
               {/* Message */}
               <textarea
                 placeholder='Message'
                 rows='4'
+                name='textarea'
                 className='w-full p-4 bg-gray-100 rounded-lg outline-none'
-                value={message}
-                onChange={event => setMessage(event.target.value)}
-                required
-                maxLength={20}
+                {...register('textarea', {
+                  minLength: { value: 5, message: 'Need minimum 5 letters' },
+                  maxLength: { value: 20, message: 'Only accept 20 letters' },
+                  required: { value: true, message: 'Please fill the form' }
+                })}
               ></textarea>
+              {errors.textarea && <p className='text-red-500'>{errors.textarea.message}</p>}
 
               {/* Submit Button */}
               <button
