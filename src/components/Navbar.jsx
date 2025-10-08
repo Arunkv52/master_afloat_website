@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-
 import { MdCloseFullscreen } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { Link } from 'react-router';
+import Logo from '../assets/Logo.png'
 
 
 
@@ -12,11 +12,10 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='md:flex justify-between items-center flex text-white px-5 py-2 fixed w-full top-0 z-50'>
+            <div className='md:flex justify-between items-center flex text-white px-5 py-0 fixed w-full top-0 z-50'>
                 <div className='logo cursor-pointer'>
                     <Link to={'/'}>
-                        <h1 className='text-3xl'>
-                            Master Afloat</h1>
+                        <img src={Logo} alt="" className='w-[150px]'/>
                     </Link>
                 </div>
                 <div className='menu text-white md:block hidden'>
