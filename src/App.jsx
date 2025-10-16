@@ -20,6 +20,7 @@ import Scrubberrepair from './pages/gallery/Scrubberrepair'
 import Seafastening from './pages/gallery/Seafastening'
 import Steelplate from './pages/gallery/Steelplate'
 import Vesselname from './pages/gallery/Vesselname'
+import Gallery from './pages/Gallery'
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
           <Route path='/seafastening' element={<Seafastening />} />
           <Route path='/steelplate' element={<Steelplate />} />
           <Route path='/vesselname' element={<Vesselname />} />
+          <Route path='/gallery' element={<Gallery/>} />
         </Routes>
       </BrowserRouter>
     </>

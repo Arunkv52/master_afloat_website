@@ -38,6 +38,10 @@ const Navbar = () => {
                             Services
                             <span className='absolute left-0 bottom-0 w-0 h-[2px] bg- transition-all duration-300 group-hover:w-full'></span>
                         </Link>
+                        <Link to={'/gallery'} className='relative group cursor-pointer'>
+                            Gallery
+                            <span className='absolute left-0 bottom-0 w-0 h-[2px] bg- transition-all duration-300 group-hover:w-full'></span>
+                        </Link>
                     </ul>
                 </div>
 

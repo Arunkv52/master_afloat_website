@@ -75,7 +75,7 @@ const Contact = () => {
                   className='w-full p-4 bg-gray-100 rounded-lg outline-none'
                   {...register('email', {
                     minLength: { value: 5, message: 'Need minimum 5 letters' },
-                    maxLength: { value: 20, message: 'Only accept 20 letters' },
+                    maxLength: { value: 50, message: 'Only accept 20 letters' },
                     required: { value: true, message: 'Please fill the form' }
                   })}
                 />
