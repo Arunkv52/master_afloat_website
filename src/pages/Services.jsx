@@ -4,6 +4,14 @@ import Navbar from '../components/Navbar'
 import ServiceImg from '../assets/services.jpg'
 import Footer from '../components/Footer'
 import Serve from '../assets/weld.jpg'
+import PipingImg from '../assets/voyage/piping.jpg'
+import StructuralImg from '../assets/voyage/structural.jpg'
+import ElectricalImg from '../assets/voyage/piping.jpg'
+import MechanicalImg from '../assets/voyage/mechanical_works.jpg'
+import HydralicsImg from '../assets/voyage/Hydralics.jpeg'
+import CarpentaryImg from '../assets/voyage/carpentary-works.jpg'
+
+
 
 const Services = () => {
   const { scrollY } = useScroll()
@@ -66,6 +74,7 @@ const Services = () => {
                 Overboard pipes modifications and renewal Bellow fabrication and
                 installation.{' '}
               </p>
+              <img src={PipingImg} alt="" className='w-full h-[260px] object-cover'/>
             </div>
             <div className='md:py-0 py-5'>
               <h5 className='text-[#006994] text-2xl'>Structural Works</h5>
@@ -74,6 +83,7 @@ const Services = () => {
                 Offshore platform, Aluminium Ladder repair fabrication and
                 installation with load test.
               </p>{' '}
+               <img src={StructuralImg} alt="" className='w-full h-[260px] object-cover' />
             </div>
             <div className='md:py-0 py-5'>
               <h5 className='text-[#006994] text-2xl'>Electrical Works</h5>
@@ -81,6 +91,7 @@ const Services = () => {
                 We provide Alternator Generator servicing, motor Rewinding,
                 troubleshoot control panel, Cable laying and termination works.
               </p>
+              <img src={ElectricalImg} alt="" className='w-full h-[260px] object-cover' />
             </div>
             <div className='md:py-0 py-5'>
               <h5 className='text-[#006994] text-2xl'>Mechanical Works</h5>
@@ -89,6 +100,7 @@ const Services = () => {
                 windlass, Deck mooring winches and Cargo Pump & Butterfly Valve
                 servicing and install. in Anchorage / Voyage.
               </p>
+              <img src={MechanicalImg} alt="" className='w-full h-[260px] object-cover' />
             </div>
             <div className='md:py-0 py-5'>
               <h5 className='text-[#006994] text-2xl'>Hydraulic Works</h5>
@@ -97,6 +109,7 @@ const Services = () => {
                 overhauling, Repair /testing of hydraulic pump and Tank Gauging
                 automation .
               </p>
+              <img src={HydralicsImg} alt="" className='w-full h-[260px] object-cover' />
             </div>
             <div className='md:py-0 py-5'>
               <h5 className='text-[#006994] text-2xl'>
@@ -108,6 +121,7 @@ const Services = () => {
                 holes, marine floor tiles renewal and Bridge toughen glass
                 fabrication and installation.{' '}
               </p>
+              <img src={CarpentaryImg} alt="" className='w-full h-[260px] object-cover' />
             </div>
           </div>
         </div>
